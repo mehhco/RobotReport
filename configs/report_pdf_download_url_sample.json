@@ -1,0 +1,42 @@
+{
+    "code": 1,
+    "message": "success",
+    "data": {
+      "member": false,
+      "readCount": 1,
+      "readAuth": true,
+      "pageNum": 11,
+      "author": "吴鸣远",
+      "reportType": "行业研究",
+      "reportSubType": "行业定期",
+      "articleId": 6167391,
+      "sentiment": 0,
+      "articleType": 3,
+      "articleTitle": "计算机行业周报（20250609-20250613）：多模态与超级Agent，AI进入下半场",
+      "publishTime": "20250615",
+      "publishTimeReadable": "2025-06-15",
+      "induName": "计算机",
+      "ratingId": 5,
+      "rating": "推荐",
+      "ratingChange": "维持",
+      "shareUser": "rffl@yeah.net",
+      "fileSize": 1630816,
+      "hasAbstract": 1,
+      "hasGraphTable": 1,
+      "firstGraphTableS3Url": "https://bigdata-s3.wmcloud.com/newsimage/6167391_4_c63a541a856c2a0310bed5f4bed786.png",
+      "hasDataS3Address": false,
+      "userShared": false,
+      "createBy": "robo",
+      "originCreateBy": "researchrpt",
+      "downloadUrl": "https://bigdata-s3.datayes.com/researchreport/RR17487072/2eff9dda6ee0b08c2c0fefe30c246035.pdf?wsSecret=8212cfe7b4a07f2795142c0ab8a5da2d&wsTime=1750172941&keeptime=86400",
+      "orgName": "华创证券",
+      "authorList": [
+        {
+          "authorId": 115432,
+          "authorName": "吴鸣远",
+          "photo": "https://bigdata-s3.wmcloud.com/researchreport/images/147185781358814718578135880.JPG",
+          "isNewFortune": false
+        }
+      ]
+    }
+  }

@@ -1,0 +1,23 @@
+# 目标网站
+baseUrl_login: "https://robo.datayes.com/"
+baseUrl_industry: "https://gw.datayes.com/rrp_adventure/web/search"
+params:
+  pageNow: 1
+  authorId: ""
+  isOptional: false
+  orgName: ""
+  reportType: "INDUSTRY"
+  secCodeList: ""
+  reportSubType: ""
+  industry: ""
+  ratingType: ""
+  pubTimeStart: "20250617"
+  pubTimeEnd: "20250617"
+  type: "EXTERNAL_REPORT"
+  pageSize: 40
+  sortOrder: "desc"
+  query: ""
+  minPageCount: ""
+  maxPageCount: ""
+# 单篇研报url
+report_overview_url: "https://gw.datayes.com/rrp_adventure/web/externalReport/"

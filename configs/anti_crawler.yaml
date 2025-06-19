@@ -1,0 +1,36 @@
+# 反爬虫策略配置
+anti_crawler:
+  # 登录相关
+  login:
+    interval: 1800  # 登录间隔（秒）
+    max_failures: 10  # 最大失败次数后重新登录
+    retry_delay: 60  # 重新登录后延迟（秒）
+  
+  # 请求控制
+  request:
+    base_delay: 3  # 基础延迟（秒）
+    variance: 2  # 延迟方差
+    max_consecutive_failures: 5  # 连续失败阈值
+    work_time_penalty: 2  # 工作时间额外延迟
+    
+  # 批量处理
+  batch:
+    size: 10  # 批次大小
+    rest_time: 30  # 批次间休息时间（秒）
+    rest_variance: 20  # 休息时间方差
+    
+  # 重试策略
+  retry:
+    max_attempts: 3  # 最大重试次数
+    backoff_multiplier: 2  # 退避倍数
+    base_backoff: 5  # 基础退避时间（秒）
+    
+  # 请求模式变化
+  pattern:
+    add_timestamp_prob: 0.3  # 添加时间戳概率
+    add_version_prob: 0.2  # 添加版本号概率
+    
+  # 工作时间感知
+  work_hours:
+    morning: [9, 30, 11, 30]  # 上午工作时间
+    afternoon: [13, 0, 15, 0]  # 下午工作时间 
